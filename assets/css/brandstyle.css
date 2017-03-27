@@ -1,0 +1,29 @@
+/* line 1, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/brandstyle.scss */
+.site--content-divider {
+  background-color: #efefef;
+  width: 100%; }
+  /* line 5, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/brandstyle.scss */
+  .site--content-divider .visuals {
+    max-width: 200px  !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 20px !important;
+    display: block !important; }
+
+/* line 15, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/brandstyle.scss */
+section {
+  margin-top: 60px; }
+  /* line 17, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/brandstyle.scss */
+  section h1 {
+    border-bottom: solid 4px #253764;
+    color: #253764;
+    margin-bottom: 15px;
+    font-weight: 700; }
+  /* line 24, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/brandstyle.scss */
+  section h2 {
+    margin-top: 25px; }
+  /* line 28, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/brandstyle.scss */
+  section h3 {
+    margin-top: 20px; }
+
+/*# sourceMappingURL=brandstyle.css.map */

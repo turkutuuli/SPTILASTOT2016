@@ -1,0 +1,25 @@
+/*
+ * Site Header
+ */
+
+.siteHeader {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.siteHeader__brandLogo {
+    max-width: 400px;
+    margin-bottom: 40px; 
+    margin-top: 40px; 
+}
+
+.siteHeader p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    max-width: 600px;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    display: block;
+    width: auto;
+}
