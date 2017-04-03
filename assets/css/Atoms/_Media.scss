@@ -9,6 +9,9 @@ img {
 	// Make images and other media related elements responsive.
 	max-width: 1000px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
 	// Removes standard border, as well as the border when inside `a` element in IE6/7/8/9, FF3.
 	border: 0;

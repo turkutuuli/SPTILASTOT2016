@@ -14,7 +14,7 @@ $image-base-path: '../imgs/' !default;
 // All brand colors, for each of these keys, a utility color-class will be generated.
 // f.e. `.u-brandColor-primary { color: #0097d7; }`
 $brand-colors: (
-	primary: #253764
+	primary: rgb(37, 55, 101)
 )	!default;
 
 // The main brand font-family
@@ -76,17 +76,17 @@ $half-spacing: $basic-spacing / 2 !default;
 // =============================================================================
 // Basic layout width (in pixels) - will be set on the '.siteWrapper' class
 // The value is wrapped in the relative-size function which converts pixels into em's.
-$layout-width: 80% !default;
-$layout-max-width: rs(1200) !default;
+$layout-width: 100% !default;
+$layout-max-width: rs(1400) !default;
 
 // If this boolean is set to 'true' the '.siteWrapper' class will be horizontally centered.
-$centered-layout: true !default;
+$centered-layout: false !default;
 
 // Inner spacing for all grid-items.
 $column-gutter: 20px !default;
 
 // The background which will be set on the <body> element.
-$body-background: #fff !default;
+$body-background: #fafafa !default;
 
 // Used to generate some colors, this doesn't have any direct effect on
 // the .siteContent container or it's background.

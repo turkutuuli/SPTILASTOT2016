@@ -3,175 +3,246 @@
 <head>
     <meta charset="utf-8">
     <title>SP - tilastojulkaisu 2016</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/Main.css">
     <link rel="shortcut icon" href="http://www.partio.fi/sites/partio.fi/themes/partio2016/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="apple-touch-icon" href="http://www.partio.fi/sites/partio.fi/themes/partio2016/apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/offside.css">
+
 </head>
 
-<body cz-shortcut-listen="true">
+<body>
 
-<div class="navigation print-hidden">
-    <nav class="nav nav--stacked">
+    <nav id="menu-1" role="navigation" class="offside print-hidden nav nav--stacked">
+        <a href="#" class="icon icon--cross menu-btn-1--close h--right">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
         <ul class="">
             <li>
-                <a href="#jasenisto" title="Jäsenistö" data-component="SmoothScroll">Jäsenistö</a>
+                <a data-scroll href="#jasenisto" title="Jäsenistö">Jäsenistö</a>
             </li>
             <li>
-                <a href="#koulutus" title="Koulutus" data-component="SmoothScroll">Koulutus</a>
+                <a data-scroll href="#koulutus" title="Koulutus">Koulutus</a>
             </li>
             <li>
-                <a href="#partiomenetelmien_osa-alueet" title="Partiomenetelmien osa-alueet" data-component="SmoothScroll">Partiomenetelmien osa-alueet</a>
+                <a data-scroll href="#partiomenetelmien_osa-alueet" title="Partiomenetelmien osa-alueet">Partiomenetelmien osa-alueet</a>
             </li>
             <li>
-                <a href="#partio-ohjelma" title="Partio-ohjelma" data-component="SmoothScroll">Partio-ohjelma</a>
+                <a data-scroll href="#partio-ohjelma" title="Partio-ohjelma">Partio-ohjelma</a>
             </li>
             <li>
-                <a href="#partio-ohjelman-kasvatustavoitteet" title="Partio-ohjelman kasvatustavoitteet" data-component="SmoothScroll">Partio-ohjelman kasvatustavoitteet</a>
+                <a data-scroll href="#partio-ohjelman-kasvatustavoitteet" title="Partio-ohjelman kasvatustavoitteet">Partio-ohjelman kasvatustavoitteet</a>
             </li>
             <li>
-                <a href="#pestaus" title="Pestaus" data-component="SmoothScroll">Pestaus</a>
+                <a data-scroll href="#pestaus" title="Pestaus">Pestaus</a>
             </li>
             <li>
-                <a href="#lippukunnan-toiminnan-volyymi" title="Lippukunnan toiminnan volyymi" data-component="SmoothScroll">Lippukunnan toiminnan volyymi</a>
+                <a data-scroll href="#lippukunnan-toiminnan-volyymi" title="Lippukunnan toiminnan volyymi">Lippukunnan toiminnan volyymi</a>
             </li>
             <li>
-                <a href="#toiminta-luonnossa" title="Lippukunnan toiminnan volyymi" data-component="SmoothScroll">Toiminta luonnossa</a>
+                <a data-scroll href="#toiminta-luonnossa" title="Lippukunnan toiminnan volyymi">Toiminta luonnossa</a>
             </li>
             <li>
-                <a href="#termeja" title="Termejä" data-component="SmoothScroll">Termejä</a>
+                <a data-scroll href="#termeja" title="Termejä">Termejä</a>
             </li>
             <li>
-                <a href="#jasenmaarittely" title="Jäsenmäärittely" data-component="SmoothScroll">Jäsenmäärittely</a>
+                <a data-scroll href="#jasenmaarittely" title="Jäsenmäärittely">Jäsenmäärittely</a>
             </li>
             <li>
-                <a href="#lahteet" title="Lähteet" data-component="SmoothScroll">Lähteet</a>
+                <a data-scroll href="#lahteet" title="Lähteet">Lähteet</a>
             </li>
         </ul>
     </nav>
-</div>
-    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-    <label for="nav-trigger"></label>
-    <div class="site-wrap">
-        <header class="siteHeader">
-            <img src="assets/imgs/logo_sininen-partio.svg" class="siteHeader__brandLogo">
-            <p>Suomen Partiolaisisten toiminnassa on vuosittain yli 65 000 jäsentä. 31.3.2017 on julkaistu vuoden 2016 tilastot toiminnasta. Tutustu tässä tietotuotteessa tarkemmin partion jäsenmäärän muutoksiin ja muihin mielenkiintoisiin partiolukuihin!</p>
-            <a href="#jasenisto" class="btn btn--default">Vuoden 2016 tilastoihin mars!</a>
+    <div id="container">
+        <a href="#" class="icon icon--hamburger menu-btn-1 h--left">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+        <div class="site-wrap cover--picture">
+            <header class="siteHeader">
+                <img src="assets/imgs/logo_sininen-partio.svg" class="siteHeader__brandLogo">
+                <p>Suomen Partiolaisisten toiminnassa on vuosittain yli 65 000 jäsentä. 31.3.2017 on julkaistu vuoden 2016 tilastot toiminnasta. Tutustu tässä tietotuotteessa tarkemmin partion jäsenmäärän muutoksiin ja muihin mielenkiintoisiin partiolukuihin!</p>
+                <a data-scroll href="#jasenisto" class="btn btn--default">Vuoden 2016 tilastoihin mars!</a>
 
-        </header>
-
-
-
-        <main class="siteContent">
-            <div class="siteWrapper">
-                <div class="g">
-                    <div class="gi u-w1/1">
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/metsa.svg" class="visuals"></div>
-                        <section id="jasenisto">
-                            <h1>Jäsenistö</h1>
-
-                            <h2>Suomen Partiolaisten jäsenet</h2>
-                            <img src="assets/imgs/suomen-partiolaisten-jasenet.png">
-
-                            <h2>Jäsenmäärän muutos edellisvuoteen verrattuna:</h2>
+            </header>
 
 
-                            <h3>Jäsenmaksun maksaneet jäsenet</h3>
-                            <p>Jäsenmaksun maksaneiden muutos edellisiin vuosiin.</p>
-                            <img src="assets/imgs/jasenmaksun-maksaneiden-muutos-edelliseen-vuoteen.png">
 
-                            <h3>Rekisteriin kirjatut jäsenet</h3>
-                            <p>Kirjattujen jäsenten muutos edellisiin vuosiin.</p>
-                            <img src="assets/imgs/kirjattujen-jasenten-muutos-edelliseen-vuoteen.png">
+            <main class="siteContent">
+                <div class="siteWrapper">
+                    <div class="g">
+                        <div class="gi u-w1/1">
 
-                            <h2>Ikäryhmät</h2>
+                            <section id="jasenisto">
+                                <h1 class="first">Jäsenistö</h1>
 
-                            <h2>Ikäkausien suhteelliset osuudet 31.7.2016</h2>
+                                <h2 class="first">Suomen Partiolaisten jäsenet</h2>
+                                <p class="first lead">Suomen Partiolaisten jäsenten määrä on kasvanut vuodessa 4,8 %. Jäsenmaksun maksaneiden määrä on kasvanut 2,9 %. Kaiken kaikkiaan partiossa oli vuoden 2016 aikana 80 758 jäsentä.</p>
+                                <img class="stat--img" src="assets/imgs/suomen-partiolaisten-jasenet.png">
 
-                            <h2>Ikäkausien suhteellisten osuuksien muutos</h2>
-
-                            <h2>Kohderyhmäikäisten ikäjakauma</h2>
-
-                            <h2>Partiorekisteriin kirjattujen 7-22-vuotiaiden ikäjakauma 31.7. sukupuolittain</h2>
-
-                            <h2>Sukupuolijako</h2>
-
-                            <h2>Sukupuolien suhteellinen osuus ikäkausista</h2>
-
-                            <h2>Jäsenien jakautuminen ikäkausiin sukupuolittain</h2>
-
-                            <h2>Sukupuolien osuudet ikäkauden liittyneistä</h2>
-
-                            <h2>Sukupuolien osuudet ikäkauden eronneista</h2>
-
-                            <h2>Liittyneet ja eronneet</h2>
-
-                            <h2>Liittyneet ja eronneet vuosittain</h2>
-
-                            <h2>Liittyneet ja eronneet ikäryhmittäin 2016</h2>
-
-                            <h2>Ikäkausien osuudet liittyneistä ja eronneista</h2>
-
-                            <h2>Liittyneet ja eronneet 2016 piireittäin verrattuna piirin jäsenmäärään 31.12.2016</h2>
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/nuoli.svg" class="visuals"></div>
-                        <section id="koulutus">
-                            <h1>Koulutus</h1>
-                            <h2>Ryhmien aikuisen tuen koulutus</h2>
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/polku.svg" class="visuals"></div>
-                        <section id="partiomenetelmien_osa-alueet">
-                            <h1>Partiomenetelmän osa-alueet</h1>
-                            <h2> Partiolaisten ikä eri ikäkausissa</h2>
-
-                            <h2>Ryhmien aikuinen tuki</h2>
-
-                            <h2>Kohderyhmäikäisten johtajatehtävät</h2>
-
-                            <h2>Vartiotoiminta</h2>
-                        </section>
-                        <section id="partio-ohjelma">
-                            <h1>Partio-ohjelma</h1>
-                            <p>Partio-ohjelman toteutumista eritavoilla vuosiselosteessa. Alla on kuvattu suoritetun partio-ohjelman volyymeja ikäkausittain ja lippukuntien arvio samoaja ja vaeltaja ohjelmien toteutumisesta. Datassa on listattu erikseen sekä uusi että vanha samoaja ja vaeltajaohjelma.</p>
-
-                            <p>Raportin kohdassa partio-ohjelman kasvatus tavoitteet on lippukunnat arvioineet partiolaisten kehittymistä oman ikäkauden kasvatustavoitteissa. Yleisenä trendinä voidaan huomata ettei ikäkausien ohjelma suoritusten trendit täyty.</p>
-                            <h2>Sudenpentuohjelma</h2>
-
-                            <p>Tehdyt jäljet 2016</p>
-
-                            <p>Jälkeä per sudenpentu vuosittain</p>
-
-                            <p>Sudenpennuilla on partio-ohjelmassa 35 jälkeä. Kaikkia jälkiä tehtiin vuonna 2015. Suosituimmat jäljet ovat vuodesta toiseen samoja perinteisiä partiotaitoja. Vähiten suosittuja jälkiä ovat meripartiointiin liittyvät jäljet, mikä luultavasti johtuu meripartiolippukuntien suhteellisen vähäisestä määrästä ja maapartiolaisten vähistä mahdollisuuksista tehdä meripartiojälkiä.</p>
-
-                            <p>Muutokset aiempiin vuosiin ovat pieniä. Vuoteen 2015 verrattuna eniten suosiotaan ovat kasvattaneet Ensiapu, Luonnossaliikkuja sekä luonnontuntemus. Toiseen suuntaan erottuvat Retki ja Taiteilija joita on tehty huomattavasti vähemmän vuoteen 2015 verrattuna . Maailma jälki on menettänyt suosiotaan toista vuotta putkeen.</p>
+                                <h2>Jäsenmäärän muutos edellisvuoteen verrattuna:</h2>
 
 
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/talo.svg" class="visuals"></div>
-                        <section id="partio-ohjelman-kasvatustavoitteet">
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/teltta.svg" class="visuals"></div>
-                        <section id="pestaus">
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/vuori.svg" class="visuals"></div>
-                        <section id="lippukunnan-toiminnan-volyymi">
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/vesi.svg" class="visuals"></div>
-                        <section id="toiminta-luonnossa">
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/polku.svg" class="visuals"></div>
-                        <section id="termeja">
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/vuori.svg" class="visuals"></div>
-                        <section id="jasenmaarittely">
-                        </section>
-                        <div class="site--content-divider print-hidden"><img src="assets/imgs/teltta.svg" class="visuals"></div>
-                        <section id="lahteet">
-                        </section>
+                                <h3>Jäsenmaksun maksaneet jäsenet</h3>
+                                <p>Jäsenmaksun maksaneiden muutos edellisiin vuosiin.</p>
+                                <img class="stat--img" src="assets/imgs/jasenmaksun-maksaneiden-muutos-edelliseen-vuoteen.png">
+
+                                <h3>Rekisteriin kirjatut jäsenet</h3>
+                                <p>Kirjattujen jäsenten muutos edellisiin vuosiin.</p>
+                                <img class="stat--img" src="assets/imgs/kirjattujen-jasenten-muutos-edelliseen-vuoteen.png">
+
+                                <h2>Ikäryhmät</h2>
+
+                                <p class="lead">Partiolaisten määrä on kasvanut tasaisesti kaikissa ikäryhmissä. Näin ollen ikäluokkien suhteelliset koot ovat pysyneet edellisvuoden tasolla. Partion kolme nuorinta ikäluokkaa kattaa 59 % jäsenistöstä. Kohderyhmittäin tarkasteltuna näyttäisi siltä että tarpoja-iän jälkeen tapahtuisi suuri pudotus samoajiin siirryttäessä. Jos kuitenkin tarkastelee jäsenmäärä ikäkausitasolla näkee että jäsenmäärän väheneminen on hyvin tasainen, joka ikävuoden jäseniä eroaa saman verran 10 ikävuodesta alkaen noin 15 ikävuoteen saakka.</p>
+
+                                <h2>Ikäkausien suhteelliset osuudet 31.7.2016</h2>
+
+                                <img class="stat--img" alt="Ikäkausien suhteelliset osuudet" src="assets/imgs/ikakausien-suhteelliset-osuudet.png">
+
+                                <h2>Ikäkausien suhteellisten osuuksien muutos</h2>
+                                <img class="stat--img" alt="Ikäkausien suhteellisten osuuksien muutos" src="assets/imgs/ikakausien-suhteellisten-osuuksien-muutos.png">
+
+                                <h2>Kohderyhmäikäisten ikäjakauma</h2>
+
+                                <p>Partion suurin ikäluokka on kuten aiempina vuosina 9-vuotiaat.</p>
+
+                                <img class="stat--img" alt="Partiolaisrekisteriin kirjattujen 7-22 -vuotiaiden ikäjakauma 31.7." src="assets/imgs/Partiolaisrekisteriin-kirjattujen-7-22-vuotiaiden-ikajakauma.png">
+                                <h2>Partiorekisteriin kirjattujen 7-22-vuotiaiden ikäjakauma 31.7. sukupuolittain</h2>
+                                <img class="stat--img" src="assets/imgs/Partiorekisteriin-kirjattujen-7-22-vuotiaiden-ikajakauma-sukupuolittain-2016.png">
+                                <h2>Sukupuolijako</h2>
+                                <p class="lead">Vuonna 2016 tyttöjä oli poikia enemmän lähes kaikissa ikäryhmissä. Poikkeuksena kaksi nuorinta ikäluokka; tyttöjä ja poikia on käytännössä saman verran 8-vuotiaissa, mutta 7-vuotiaissa poikia on hieman enemmän kuin tyttöjä. Silti koko jäsenmäärää tarkasteltaessa sukupuolien välinen ero ei ole kovin suuri, tytöt ja naiset edustavat noin 53 % jäsenistöstä.</p>
+                                <img class="stat--img" src="assets/imgs/partiorekisteriin-kirjatut-sukupuoli.png">
+
+                                <h2>Sukupuolien suhteellinen osuus ikäkausista</h2>
+
+
+                                <img class="stat--img" src="assets/imgs/jakautuminen-ikakausiin-sukupuolittain.png">
+
+                                <h2>Jäsenien jakautuminen ikäkausiin piirikohtaisesti</h2>
+
+                                <img class="stat--img" src="assets/imgs/jasenien-jakautuminen-sukupuolittain-piirikohtainen.png">
+
+                                <h2>Sukupuolien osuudet ikäkauden liittyneistä</h2>
+
+                                <img class="stat--img" src="assets/imgs/Sukupuolien-osuudet-ikakauden-liittyneista.png">
+
+                                <h2>Sukupuolien osuudet ikäkauden eronneista</h2>
+                                <img class="stat--img" src="assets/imgs/Sukupuolien-osuudet-ikakauden-eronneita.png">
+                                <h2>Liittyneet ja eronneet</h2>
+
+                                <p class="lead">Partion jäsenistöstä vaihtui vuoden 2016 aikana noin viidennes. Kohderyhmäikäkausia tarkastellessa voi todeta, että vuonna 2016 partioon liittyi 10341 uutta jäsentä ikäkausissa 7-22 vuotta. Samoista ikäluokista erosi 10967. Eli partioon liittyineitä ja eronneita oli vuonna 2016 suurin piirtein yhtä monta.</p>
+
+                                <p class="lead">Partioon liitytään, kuten aikaisempina vuosina, pääasiassa sudenpentuna, mutta jonkun verran myös seikkailijoina ja tarpoajina. Eroaminen jakaantuu tasaisemmin kolmen nuorimpien ikäluokkien välille kuin liittyminen, joskin hieman enemmän eronneita löytyy sudenpentujen ikäluokasta kuin seikkailijoiden ja tarpoajien ikäluokista.</p>
+
+                                <p class="lead">Vuoteen 2015 verrattuna liittyminen ja eroaminen näyttää tapahtuman suunnilleen samassa mittakaavassa ja samoissa ikäryhmissä tänäkin vuonna. 2015 oli ensimmäinen vuosi, kun liittyneet ja eronneet laskettiin partiorekisteri Kuksan tiedoista, tätä aikaisempi tieto ei ole vertailukelpoinen, josta johtuen ei ole pidempiaikaisia trenditietoja saatavilla.
+                                </p>
+
+                                <h2>Liittyneet ja eronneet vuosittain</h2>
+                                <img class="stat--img" src="assets/imgs/liittyneet-eronneet.png">
+                                <h2>Liittyneet ja eronneet ikäryhmittäin 2016</h2>
+                                <img class="stat--img" src="assets/imgs/liittyneet-eronneet-ikakausittain.png">
+
+                                <h2>Ikäkausien osuudet liittyneistä ja eronneista</h2>
+                                <img class="stat--img" src="assets/imgs/ikakausien-osuudet-liittyneista-ja-eronneista.png">
+                                <h2>Liittyneet ja eronneet 2016 piireittäin verrattuna piirin jäsenmäärään 31.12.2016</h2>
+                                <img class="stat--img" src="assets/imgs/liittyneet-ja-eronneet-piireittain-verrattuna-piirin-jasenmaaraan-31-12.png">
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/nuoli.svg" class="visuals"></div>
+                            <section id="koulutus">
+                                <h1>Koulutus</h1>
+                                <h2>Ryhmien aikuisen tuen koulutus</h2>
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/polku.svg" class="visuals"></div>
+                            <section id="partiomenetelmien_osa-alueet">
+                                <h1>Partiomenetelmän osa-alueet</h1>
+                                <h2> Partiolaisten ikä eri ikäkausissa</h2>
+
+                                <h2>Ryhmien aikuinen tuki</h2>
+
+                                <h2>Kohderyhmäikäisten johtajatehtävät</h2>
+
+                                <h2>Vartiotoiminta</h2>
+                            </section>
+                            <section id="partio-ohjelma">
+                                <h1>Partio-ohjelma</h1>
+                                <p>Partio-ohjelman toteutumista eritavoilla vuosiselosteessa. Alla on kuvattu suoritetun partio-ohjelman volyymeja ikäkausittain ja lippukuntien arvio samoaja ja vaeltaja ohjelmien toteutumisesta. Datassa on listattu erikseen sekä uusi että vanha samoaja ja vaeltajaohjelma.</p>
+
+                                <p>Raportin kohdassa partio-ohjelman kasvatus tavoitteet on lippukunnat arvioineet partiolaisten kehittymistä oman ikäkauden kasvatustavoitteissa. Yleisenä trendinä voidaan huomata ettei ikäkausien ohjelma suoritusten trendit täyty.</p>
+                                <h2>Sudenpentuohjelma</h2>
+
+                                <p>Tehdyt jäljet 2016</p>
+
+                                <p>Jälkeä per sudenpentu vuosittain</p>
+
+                                <p>Sudenpennuilla on partio-ohjelmassa 35 jälkeä. Kaikkia jälkiä tehtiin vuonna 2015. Suosituimmat jäljet ovat vuodesta toiseen samoja perinteisiä partiotaitoja. Vähiten suosittuja jälkiä ovat meripartiointiin liittyvät jäljet, mikä luultavasti johtuu meripartiolippukuntien suhteellisen vähäisestä määrästä ja maapartiolaisten vähistä mahdollisuuksista tehdä meripartiojälkiä.</p>
+
+                                <p>Muutokset aiempiin vuosiin ovat pieniä. Vuoteen 2015 verrattuna eniten suosiotaan ovat kasvattaneet Ensiapu, Luonnossaliikkuja sekä luonnontuntemus. Toiseen suuntaan erottuvat Retki ja Taiteilija joita on tehty huomattavasti vähemmän vuoteen 2015 verrattuna . Maailma jälki on menettänyt suosiotaan toista vuotta putkeen.</p>
+
+
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/talo.svg" class="visuals"></div>
+                            <section id="partio-ohjelman-kasvatustavoitteet">
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/teltta.svg" class="visuals"></div>
+                            <section id="pestaus">
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/vuori.svg" class="visuals"></div>
+                            <section id="lippukunnan-toiminnan-volyymi">
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/vesi.svg" class="visuals"></div>
+                            <section id="toiminta-luonnossa">
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/polku.svg" class="visuals"></div>
+                            <section id="termeja">
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/vuori.svg" class="visuals"></div>
+                            <section id="jasenmaarittely">
+                            </section>
+                            <div class="site--content-divider print-hidden"><img src="assets/imgs/teltta.svg" class="visuals"></div>
+                            <section id="lahteet">
+                            </section>
+                            <section>
+                                <p><a data-scroll href="#" class="btn btn--default">Takaisin ylös</a>
+                                </p>
+                            </section>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </main>
+            </main>
+
+        </div>
     </div>
+
+    <!-- Javascript -->
+
+
+    <script src="dist/js/smooth-scroll.js"></script>
+
+
+    <script>
+        smoothScroll.init();
+    </script>
+
+    <script src="dist/js/offside.js"></script>
+
+    <script>
+        var offsideMenu1 = offside('#menu-1', {
+
+            slidingElementsSelector: '#container, #results',
+            debug: true,
+            buttonsSelector: '.menu-btn-1, .menu-btn-1--close',
+            slidingSide: 'left',
+            beforeOpen: function () {},
+            beforeClose: function () {},
+        });
+
+
+        console.log(offsideMenu1);
+        console.log(offsideMenu2);
+    </script>
 </body>
+
 
 </html>

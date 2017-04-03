@@ -32,3 +32,29 @@
 .u-isInvisible {
 	@include u-isInvisible();
 }
+
+/*
+ * Navigational fixes to the html
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%; /* fixes focus scrolling in Safari (OS X) */
+    margin: 0;
+    padding: 0;
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* disable webkit tap highlight */
+    color: #313131;
+    font-family: 'Lato', sans-serif;
+}
