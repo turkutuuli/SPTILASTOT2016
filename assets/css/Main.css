@@ -116,6 +116,107 @@ input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
+/* line 1, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+.cover--picture {
+  background-image: url(../imgs/cover-roihu-tilastot.jpg);
+  background-size: cover 300;
+  background-repeat: no-repeat;
+  background-position: top; }
+  @media all and (max-width: 699px) {
+    /* line 1, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+    .cover--picture {
+      background-size: cover 100 !important;
+      background-position: top;
+      background-position-y: -150px; } }
+
+/* line 13, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+.siteHeader {
+  height: 100%; }
+
+/* line 17, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+.site--content-divider {
+  background-color: #efefef;
+  width: 100%; }
+  /* line 20, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  .site--content-divider .visuals {
+    max-width: 200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 20px !important;
+    display: block !important; }
+
+/* line 29, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+section {
+  padding-top: 100px; }
+  @media all and (max-width: 930px) {
+    /* line 29, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+    section {
+      padding: 10px !important; }
+      /* line 33, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+      section p {
+        font-size: 16px !important; }
+      /* line 36, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+      section h1 {
+        font-size: 28px !important; }
+      /* line 39, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+      section h2 {
+        font-size: 22px !important; }
+      /* line 42, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+      section h3 {
+        font-size: 20px !important; } }
+  /* line 46, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  section .first {
+    color: #fcfcfc !important;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.35) !important;
+    font-weight: 700 !important; }
+  /* line 51, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  section h1 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  /* line 56, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  section h2 {
+    margin-top: 25px;
+    font-weight: 700; }
+  /* line 60, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  section h3 {
+    margin-top: 20px;
+    font-weight: 700; }
+  /* line 64, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  section h1,
+  section h2,
+  section h3,
+  section h4,
+  section h5,
+  section h6,
+  section p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.05); }
+  /* line 76, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  section .lead {
+    font-size: 1.3em; }
+  /* line 79, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+  section .stat--img {
+    border: solid 10px rgba(0, 0, 0, 0.08) !important;
+    padding: 10px;
+    background-color: #fff; }
+    @media all and (min-width: 931px) {
+      /* line 79, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+      section .stat--img {
+        width: auto;
+        max-height: 500px; } }
+    @media all and (max-width: 930px) {
+      /* line 79, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+      section .stat--img {
+        width: auto;
+        max-height: 400px; } }
+    @media all and (max-width: 699px) {
+      /* line 79, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/_BrandStyle.scss */
+      section .stat--img {
+        width: 100%; } }
+
 /**
  * Collection of CSS3 Keyframe Animations.
  */
@@ -189,14 +290,14 @@ input::-moz-focus-inner {
 /* line 12, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Utilities/_Brand.scss */
 .u-brand {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #0097d7; }
+  color: #253765; }
 
 /*
  * Brand color helpers.
  */
 /* line 20, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Utilities/_Brand.scss */
 .u-brandColor-primary {
-  color: #0097d7; }
+  color: #253765; }
 
 /*
  * Brand font-family helper.
@@ -218,7 +319,7 @@ input::-moz-focus-inner {
 .u-brandLogo--default {
   width: 200px;
   height: 100px;
-  background-image: url(../Images/BrandLogo.svg); }
+  background-image: url(../imgs/logo_sininen-partio.svg); }
 
 /**
  * Display utilities
@@ -244,6 +345,32 @@ input::-moz-focus-inner {
 /* line 32, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Utilities/_Display.scss */
 .u-isInvisible {
   visibility: hidden; }
+
+/*
+ * Navigational fixes to the html
+ */
+/* line 40, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Utilities/_Display.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 47, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Utilities/_Display.scss */
+html {
+  height: 100%; }
+
+/* line 51, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Utilities/_Display.scss */
+body {
+  position: relative;
+  min-height: 100%;
+  /* fixes focus scrolling in Safari (OS X) */
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  /* disable webkit tap highlight */
+  color: #313131;
+  font-family: 'Lato', sans-serif; }
 
 /**
  * Layout utilities
@@ -926,7 +1053,7 @@ input::-moz-focus-inner {
   padding: 0.75em;
   margin-bottom: 1.5em;
   border-radius: 2px;
-  background-color: #0097d7;
+  background-color: #253765;
   color: white; }
   /* line 15, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Alert.scss */
   .alert :last-child {
@@ -937,7 +1064,7 @@ input::-moz-focus-inner {
  */
 /* line 30, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Alert.scss */
 .alert--success {
-  background-color: #8CD700;
+  background-color: #14a54b;
   color: white; }
 
 /*
@@ -945,8 +1072,8 @@ input::-moz-focus-inner {
  */
 /* line 41, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Alert.scss */
 .alert--failure {
-  background-color: #D75200;
-  color: white; }
+  background-color: #f04150;
+  color: black; }
 
 /**
  * Base and high-level wrapper elements
@@ -956,16 +1083,14 @@ body {
   margin: 0;
   font: 400 100%/1.5 Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: left;
-  color: #51585e;
-  background: #fff; }
+  color: #333;
+  background: #fafafa; }
 
 /* line 17, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Base.scss */
 .siteWrapper {
   position: relative;
-  width: 80%;
-  max-width: 75em;
-  margin-left: auto;
-  margin-right: auto; }
+  width: 100%;
+  max-width: 87.5em; }
 
 /**
  * Buttons
@@ -984,7 +1109,7 @@ body {
   font-size: .8em;
   font-weight: normal;
   line-height: 1;
-  color: #0097d7;
+  color: #253765;
   vertical-align: top;
   transition: all 0.3s ease; }
   /* line 27, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Button.scss */
@@ -992,8 +1117,8 @@ body {
     text-decoration: none; }
   /* line 32, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Button.scss */
   .btn:hover {
-    background: #0097d7;
-    border-color: #0097d7;
+    background: #253765;
+    border-color: #253765;
     color: white; }
 
 /*
@@ -1017,7 +1142,7 @@ body {
   .btn--invert:hover {
     background: white;
     border-color: white;
-    color: #0097d7; }
+    color: #253765; }
 
 /*
  * Visualize the disabled state of the button.
@@ -1025,7 +1150,7 @@ body {
 /* line 82, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Button.scss */
 .btn--disabled,
 .btn[disabled] {
-  color: #51585e;
+  color: #333;
   pointer-events: none;
   opacity: .5; }
 
@@ -1034,22 +1159,22 @@ body {
  */
 /* line 98, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Button.scss */
 .btn--positive {
-  color: #8CD700; }
+  color: #14a54b; }
   /* line 93, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Button.scss */
   .btn--positive:hover {
-    background: #8CD700;
-    border-color: #8CD700; }
+    background: #14a54b;
+    border-color: #14a54b; }
 
 /*
  * Visualize the negative purpose/action of the button.
  */
 /* line 113, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Button.scss */
 .btn--negative {
-  color: #D75200; }
+  color: #f04150; }
   /* line 108, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Button.scss */
   .btn--negative:hover {
-    background: #D75200;
-    border-color: #D75200; }
+    background: #f04150;
+    border-color: #f04150; }
 
 /**
  * Code & pre-formatted text elements
@@ -1193,7 +1318,7 @@ input:placeholder, textarea:placeholder {
   border-radius: 2px;
   box-shadow: inset 0 1px 1px rgba(230, 230, 230, 0.4);
   font-size: 0.875rem;
-  color: #5d656c; }
+  color: #404040; }
 
 /*
  * Disabled state for inputs.
@@ -1209,14 +1334,14 @@ input:placeholder, textarea:placeholder {
  */
 /* line 88, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Input.scss */
 .textInput--success {
-  border-color: #8CD700; }
+  border-color: #14a54b; }
 
 /*
  * Negative validated state for inputs.
  */
 /* line 98, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Input.scss */
 .textInput--failure {
-  border-color: #D75200; }
+  border-color: #f04150; }
 
 /**
  * Form elements
@@ -1253,7 +1378,7 @@ legend {
  */
 /* line 8, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Link.scss */
 a {
-  color: #0097d7;
+  color: #fff;
   text-decoration: none;
   background: transparent; }
   /* line 15, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Link.scss */
@@ -1324,41 +1449,44 @@ embed,
 iframe,
 object,
 img {
-  max-width: 700px;
+  max-width: 1000px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   border: 0; }
 
-/* line 17, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+/* line 20, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
 img {
   font-style: italic;
   vertical-align: middle; }
-  /* line 25, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+  /* line 28, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
   img[height] {
     height: auto; }
 
-/* line 30, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+/* line 33, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
 figure {
   margin: 0; }
 
-/* line 35, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+/* line 38, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
 figcaption {
   font-size: 0.875rem; }
 
-/* line 40, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+/* line 43, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
 audio,
 video,
 iframe {
   margin: 0 0 1.5em; }
 
-/* line 46, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+/* line 49, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
 audio {
   min-width: 65%; }
-  /* line 50, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+  /* line 53, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
   audio:not([controls]) {
     display: none;
     height: 0; }
 
-/* line 60, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
+/* line 63, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Media.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -1430,7 +1558,7 @@ abbr[title] {
 mark {
   padding-left: .2em;
   padding-right: .2em;
-  background: #0097d7;
+  background: #253765;
   color: white; }
 
 /* line 34, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Atoms/_Typography.scss */
@@ -1700,17 +1828,18 @@ sub {
 /*
  * Throws a list into horizontal mode.
  */
-/* line 8, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
+/* line 10, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
 .nav {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
-  /* line 11, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
+  /* line 12, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
   .nav > li {
     display: inline-block; }
     /* line 14, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
     .nav > li > a {
       display: block;
+      color: #fff !important;
       color: currentColor; }
       /* line 98, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Utilities/_Typography.scss */
       .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus {
@@ -1723,18 +1852,19 @@ sub {
 /*
  * Throws a list into vertical mode.
  */
-/* line 26, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
-.nav--stacked > li {
-  display: list-item; }
+/* line 29, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
+.nav--stacked .nav--stacked--content > li {
+  display: list-item;
+  margin-bottom: 15px; }
 
 /*
  * Forces a list to occupy 100% of the available width of it's parent.
  */
-/* line 34, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
+/* line 41, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
 .nav--fit {
   display: table;
   width: 100%; }
-  /* line 38, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
+  /* line 44, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Molecules/_Navigation.scss */
   .nav--fit > li {
     display: table-cell; }
 
@@ -1839,6 +1969,28 @@ sub {
 /*
  * Site Header
  */
+/* line 5, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Organisms/_SiteHeader.scss */
+.siteHeader {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px; }
+
+/* line 11, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Organisms/_SiteHeader.scss */
+.siteHeader__brandLogo {
+  max-width: 400px;
+  margin-bottom: 40px;
+  margin-top: 40px; }
+
+/* line 17, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Organisms/_SiteHeader.scss */
+.siteHeader p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  max-width: 600px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+  width: auto; }
+
 /**
  * Site Footer
  */
@@ -1883,6 +2035,24 @@ sub {
   /* line 45, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Templates/_Print.scss */
   
   .print-hidden {
-    display: none; } }
+    display: none; }
+  /* Micro reset */
+  /* line 50, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Templates/_Print.scss */
+  html, body {
+    height: auto !important;
+    width: auto !important; }
+  /* line 52, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Templates/_Print.scss */
+  .stat--img {
+    border: solid 1px #ddd !important;
+    max-width: 90%;
+    padding: 10px;
+    background-color: #fff; }
+  /* line 59, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Templates/_Print.scss */
+  h1, h2, h3, h4, h5, h6, p, .first {
+    color: black !important; } }
+
+/* line 64, /Users/tuulia/Documents/Projects/sp-tilastot-2016/SPTILASTOT2016/assets/css/Templates/_Print.scss */
+.print-show {
+  display: block; }
 
 /*# sourceMappingURL=Main.css.map */
